@@ -1,0 +1,95 @@
+body {
+  margin-top: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Georgia, Georgia Pro;
+  background-color: black;
+  text-align: center;
+}
+
+p10 {
+    font-size: 25px;
+    position: fixed; bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    right: 0px;
+}
+h4 {
+color: #D4AF37;
+    background-image: linear-gradient(silver, #E8D29E);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+    
+.topnav {
+  background-color: black;
+  overflow: auto;
+}
+
+.topnav a {
+  float: left;
+  color: #D4AF37;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #2E4058;
+  color: #D4AF37;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #2E4053;
+  color: #D4AF37;
+}
+
+
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  margin-bottom: 50px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  border-image: linear-gradient(#E8D29E, #141004) 30;
+  border-width: 3px;
+  border-style: solid;
+  
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
