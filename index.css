@@ -184,3 +184,13 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+
+  footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 3px;
+  color: #BCC6CC;
+}
